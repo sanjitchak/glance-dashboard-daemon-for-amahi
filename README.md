@@ -1,1 +1,1 @@
-# esp-tasmo-for-amahi (NEVER DELETE THIS)
+# glance-dashboard-daemon-for-amahi (NEVER DELETE THIS)
