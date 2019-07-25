@@ -1,18 +1,39 @@
 <!DOCTYPE html>
 <html>
    <head>
-      <title>TasmoAdmin + ESPHome</title>
-<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+      <title>Glances + HA Dashboard</title>
+<link rel="stylesheet" type="text/css" href="style.css">
  <link rel="shortcut icon" href="/favicon.ico" />
    </head>
    <body>
 <h1> Click below to access them:- <h1>
 <BR>
 
-<a href="http://IP_ADDRESS:61208" style="padding: 20px  !important; color:red;" class="btn btn-success btn-primary btn-lg btn-block" target="_blank" > Glances </a>
-<BR>
+
+<div class="card float-left m-2 app-item-card" title="Glances">
+
+<a href="http://IP_ADDRESS:61208" target="_blank"> <img alt="Glances" class="card-img-top img-fluid"  src="glances.png" style="height: 8rem; max-height: 12em;">
+
+<div class="card-body">
+
+<p class=" align-middle text-truncate">Glances</p>
+</a>
+</div>
+
+</div>
+ 
 
  
-<a href="http://IP_ADDRESS:5050" style="padding: 20px  !important; color:red;"  class="btn btn-primary btn-lg btn-block" target="_blank" > HA Dashboard </a>
+<div class="card float-left m-2 app-item-card" title="HA Dashboard">
+
+<a href="http://IP_ADDRESS:5050" target="_blank"> <img alt="HA Dashboard" class="card-img-top img-fluid"  src="hadashboard.png" style="height: 8rem; max-height: 12em;">
+
+<div class="card-body">
+
+<p class=" align-middle text-truncate">HA Dashboard</p>
+</a>
+</div>
+
+</div>
    </body>
 </html>
